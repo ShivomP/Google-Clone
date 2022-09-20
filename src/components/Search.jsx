@@ -43,7 +43,7 @@ function Search({hideButtons = false}){
             ) : (
                 <div className="search__buttons">
                      <Button className='search__buttons--hidden' type='submit' onClick={search} >Google Search</Button>
-                    <Button className='search__buttons--hidden' variant="outlined">I'm Feeling Lucky</Button>
+                     <Button className='search__buttons--hidden' variant="outlined">I'm Feeling Lucky</Button>
                 </div>
             )}
         </form>
